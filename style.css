@@ -1,0 +1,133 @@
+/* ===== General Body ===== */
+body {
+  background-color: #fff6f9;  /* lotus pink aura */
+  color: #4a3b3b;             /* soft earthy brown */
+  font-family: 'Newsreader', serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+  line-height: 1.6;
+}
+
+
+/* ===== Section Styling ===== */
+section {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+section:nth-child(even) {
+  background-color: #ffeaf1; /* pale pink motherly tone */
+}
+
+/* ===== Header Section ===== */
+header#home {
+  background: linear-gradient(to bottom, #fff6f9, #ffeaf1);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #f6c1d1; /* pink-golden divider */
+}
+
+/* ===== Navbar & Footer Harmony ===== */
+nav.navbar,
+footer {
+  background: linear-gradient(to right, #fff6f9, #ffeaf1);
+  box-shadow: 0 2px 6px rgba(174, 42, 91, 0.15);
+}
+
+/* ===== Decorative Divider (sacred aura) ===== */
+.floral-border {
+  width: 160px;
+  height: 3px;
+  background: linear-gradient(to right, transparent, #d6336c, transparent);
+  margin: 0.75rem auto 1rem;
+  border-radius: 3px;
+}
+
+/* ===== Scroll to Top Button ===== */
+#goTopBtn {
+  background: #d6336c; /* lotus pink */
+  color: #fff;
+}
+#goTopBtn:hover {
+  background: #b91c50; /* deep rose */
+  box-shadow: 0 0 12px rgba(214, 51, 108, 0.7);
+}
+
+/* ===== Headings ===== */
+h1, h2, h3, h4, h5, h6 {
+  color: #a02040 !important;  /* deep rose devotion */
+  margin-top: 0.75rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+/* ===== Paragraphs ===== */
+p {
+  margin-bottom: 1rem;
+}
+
+/* ===== Links ===== */
+a {
+  color: #d6336c; /* lotus pink */
+  text-decoration: none;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.lead-custom {
+  font-weight: 450; /* between semibold & bold */
+}
+
+
+/* ===== Blockquotes (for Mantra) ===== */
+blockquote {
+  border-left: 4px solid #d6336c;
+  padding-left: 1rem;
+  font-style: italic;
+  color: #5a2d3a;
+  background: rgba(214, 51, 108, 0.08);
+  border-radius: 6px;
+}
+
+/* ===== Image Styling ===== */
+img {
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ===== Footer Text ===== */
+footer p {
+  margin: 0.25rem 0;
+}
+footer .highlight-kartik {
+  font-weight: 700;
+  text-shadow: 0 0 4px rgba(214, 51, 108, 0.4);
+}
+
+
+/* ===== Scrollbar Customization ===== */
+::-webkit-scrollbar {
+  width: 10px;                 /* width of vertical scrollbar */
+  height: 10px;                /* height of horizontal scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #ffeaf1;          /* pale pink track */
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #d6336c, #b91c50); /* lotus pink → deep rose */
+  border-radius: 8px;
+  border: 2px solid #ffeaf1;   /* soft padding effect */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #ff4d94, #a02040); /* brighter on hover */
+  box-shadow: 0 0 6px rgba(214, 51, 108, 0.6);
+}
+
+/* ===== Firefox Compatibility ===== */
+html {
+  scrollbar-color: #d6336c #ffeaf1;  /* thumb, track */
+  scrollbar-width: thin;
+}
